@@ -40,19 +40,19 @@ logo: /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name: <daeyeong> <song>
-  email: <thdeodud0412@gmail.com>
+  name: Dev Song
+  email: thdeodud0412@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title: Intro
+  - title: About
     url: /about/
   - title: Dev.log
-    url: /example/
+    url: /devlog/
   - title: Daily.log
-    url: /docs/
+    url: /dailylog/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -77,14 +77,14 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
 
 # Sidebar image and theme color of the site.
-accent_image: /assets/img/main-bg.jpg
+accent_image: /assets/img/sidebar-bg.jpg
 accent_color: rgb(79 186 135)
 
 # This is used for the `theme-color` meta tag,
@@ -392,21 +392,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/main-bg.jpg
+        path: /assets/img/sidebar-bg.jpg
     posts:
       layout: post
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/main-bg.jpg
+        path: /assets/img/sidebar-bg.jpg
     projects:
       layout: project
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/main-bg.jpg
+        path: /assets/img/sidebar-bg.jpg
       links:
         - title: Project Link
-          url: https://example.com
+          url: https://devlog.com
