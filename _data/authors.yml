@@ -1,7 +1,7 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
-author1: DaeYeong Song, thdeodud0412@gmail.com
+author1:
   name: Dev Song
   email: thdeodud0412@gmail.com
 
