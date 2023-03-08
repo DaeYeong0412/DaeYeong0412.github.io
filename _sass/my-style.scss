@@ -11,4 +11,12 @@
   .btn, .gumroad-button  {
     margin: 1rem 0;
   }
+
+  .avatar {
+    border-radius: 0;
+  }
+
+  .sidebar-about>a.sidebar-title::after {
+    width: 10rem;
+  }
 }
