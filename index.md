@@ -5,6 +5,7 @@ description: >
   조선의 개발자 94년생 송씨의 블로그
 menu: true
 order: 1
+cover: true
 ---
 
 <div class="hr pb0"></div>
