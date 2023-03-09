@@ -92,11 +92,11 @@ theme_color: rgb(25,71,57)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
-google_fonts: Roboto+Slab:700|Noto+Sans+kr:100,300,400,500,700,900
+google_fonts: Roboto+Slab:wght@700|Nanum+Gothic:wght@400;700;800
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font: Noto Sans Korean, Helvetica, Arial, sans-serif
+font: Nanum Gothic, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
@@ -152,6 +152,10 @@ defaults:
     values:
       seo:
         type: WebPage
+  - scope:
+      type: posts
+    values:
+      comments: true
 
 kramdown:
   math_engine: mathjax
@@ -167,7 +171,7 @@ kramdown:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <username>
+disqus: daeyeong0412-github-io
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
